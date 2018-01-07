@@ -1,0 +1,41 @@
+/*
+ Theme Name:   Spreadmedia
+ Theme URI:    
+ Description:  
+ Author:       Nightweb, Hampus
+ Author URI:   http://nightweb.se
+ Template:     enfold
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+@font-face {
+    src: url("circ/CircularStd-Book.otf");
+    font-family: "Circular Std";
+}
+
+#shadowbox {
+    box-shadow: 0px 1px 50px rgba(42, 42, 42, 0.10);
+}
+
+
+.template-page .entry-content-wrapper h1, .template-page .entry-content-wrapper h2 {
+    text-transform: none;
+    font-family: "Circular Std";
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+h2 {
+    text-transform: none!important;
+    font-family: "Circular Std";
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+#top .iconbox.av-no-box .iconbox_icon {
+    font-size: 70px;
+}

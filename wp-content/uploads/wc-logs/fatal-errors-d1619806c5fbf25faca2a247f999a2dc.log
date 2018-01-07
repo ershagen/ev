@@ -1,0 +1,20 @@
+2017-12-13T21:59:46+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::wc_get_cart_url() in /srv/users/serverpilot/apps/autossilniki/public/wp-content/themes/enfold/config-woocommerce/config.php:1641
+Stack trace:
+#0 /srv/users/serverpilot/apps/autossilniki/public/wp-includes/class-wp-hook.php(298): avia_woocommerce_cart_dropdown('')
+#1 /srv/users/serverpilot/apps/autossilniki/public/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /srv/users/serverpilot/apps/autossilniki/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /srv/users/serverpilot/apps/autossilniki/public/wp-content/themes/enfold/includes/helper-main-menu.php(103): do_action('ava_main_header')
+#4 /srv/users/serverpilot/apps/autossilniki/public/wp-includes/template.php(690): require('/srv/users/serv...')
+#5 /srv/users/serverpilot/apps/autossilniki/public/wp-includes/template.php(647): load_template('/srv/users/serv...', false)
+#6 /srv/users/serverpilot/apps/autossilniki/public/wp-includes/general-template.php(167): locate_template
+
+2017-12-13T21:59:48+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::wc_get_cart_url() in /srv/users/serverpilot/apps/autossilniki/public/wp-content/themes/enfold/config-woocommerce/config.php:1641
+Stack trace:
+#0 /srv/users/serverpilot/apps/autossilniki/public/wp-includes/class-wp-hook.php(298): avia_woocommerce_cart_dropdown('')
+#1 /srv/users/serverpilot/apps/autossilniki/public/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /srv/users/serverpilot/apps/autossilniki/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /srv/users/serverpilot/apps/autossilniki/public/wp-content/themes/enfold/includes/helper-main-menu.php(103): do_action('ava_main_header')
+#4 /srv/users/serverpilot/apps/autossilniki/public/wp-includes/template.php(690): require('/srv/users/serv...')
+#5 /srv/users/serverpilot/apps/autossilniki/public/wp-includes/template.php(647): load_template('/srv/users/serv...', false)
+#6 /srv/users/serverpilot/apps/autossilniki/public/wp-includes/general-template.php(167): locate_template
+
